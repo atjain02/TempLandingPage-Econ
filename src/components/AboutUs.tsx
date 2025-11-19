@@ -8,24 +8,28 @@ export const AboutUs = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">About Us</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            We're building the future of community management by combining AI technology
-            with deep understanding of HOA and property management needs.
+            We're transforming real estate investment decisions through AI-powered web scraping, 
+            document processing, and pricing intelligence for better market insights.
           </p>
 
           <div className="max-w-4xl mx-auto text-left bg-background/80 rounded-2xl p-8 border">
             <h3 className="text-2xl font-semibold mb-6 text-center">Our Story</h3>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
               Brix began as <strong>Candor</strong> during our high school years when we were working on student council voting systems.
-              We quickly realized that the challenge of organizing voices and managing community feedback extended far beyond school hallways.
+              We quickly realized that the challenge of organizing voices and managing feedback extended far beyond school hallways.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-              As we looked at neighborhood HOAs, we discovered a universal truth: <strong>people everywhere need better ways to voice their concerns</strong> and have them addressed efficiently. Whether it's a broken streetlight, a noisy neighbor, or a maintenance issue,
+              As we looked at neighborhood HOAs, we discovered a universal truth: <strong>communities everywhere need better ways to voice their concerns</strong> and have them addressed efficiently. Whether it's a broken streetlight, a noisy neighbor, or a maintenance issue,
               communities struggled with the same fundamental problem: how to turn complaints into action.
             </p>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+              While working with HOAs, we noticed that <strong>real estate developers and property managers were struggling with similar data organization challenges</strong> but with market intelligence instead of community issues.
+              They needed better ways to collect pricing data, analyze market trends, and make informed investment decisions.
+            </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Today, Brix represents our evolution from that initial insight. We've built an AI-powered platform that doesn't just collect complaints,
-              but intelligently routes them to the right people, tracks their progress, and ensures nothing falls through the cracks.
-              Because every community deserves a voice and every voice deserves to be heard.
+              Today, Brix represents our evolution from organizing community voices to organizing market intelligence. We've built an AI-powered platform that transforms 
+              scattered real estate data into actionable insights for developers, property managers, and HOAs alike.
+              Because every investment decision deserves to be informed by comprehensive market analysis.
             </p>
           </div>
         </div>
@@ -38,8 +42,8 @@ export const AboutUs = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">Our Mission</h3>
               <p className="text-muted-foreground">
-                To streamline community management through intelligent automation,
-                making neighborhood issues resolution faster and more efficient.
+                To revolutionize real estate investment decisions through AI-powered 
+                data intelligence, replacing manual processes with automated insights.
               </p>
             </CardContent>
           </Card>
@@ -51,8 +55,8 @@ export const AboutUs = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">Our Vision</h3>
               <p className="text-muted-foreground">
-                A world where every community runs smoothly through AI-powered tools
-                that connect residents, HOAs, and property managers seamlessly.
+                A real estate industry where investment decisions are powered by 
+                comprehensive market intelligence, reducing risk and maximizing returns.
               </p>
             </CardContent>
           </Card>
@@ -64,8 +68,8 @@ export const AboutUs = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">Our Team</h3>
               <p className="text-muted-foreground">
-                Experienced developers and property management professionals
-                working together to solve real-world community challenges.
+                Student developers passionate about applying AI and economics research 
+                to solve real-world problems for the real estate industry.
               </p>
             </CardContent>
           </Card>

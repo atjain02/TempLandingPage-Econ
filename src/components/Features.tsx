@@ -7,92 +7,97 @@ import {
   MessageSquare,
   Pen,
   School,
+  Database,
+  TrendingUp,
+  Bot,
 } from "lucide-react";
 
 const features = [
   {
-    id: "neighborhood-issue-reporting",
-    icon: MessageSquare,
-    title: "Smart Issue Reporting",
+    id: "ai-web-scraping",
+    icon: Bot,
+    title: "AI Web Scraping Engine",
     description:
-      "Residents report issues through a simple form that automatically routes complaints to the right party—HOA board, property manager, or vendor—using AI text analysis. Updates are permanent and trackable.",
+      "AI-powered web scraping to traverse websites and pull weekly lease data from 42+ apartment buildings. Automatically extracts pricing, availability, and market trends from multiple sources.",
     benefits: [
-      "AI automatically routes issues to correct department",
-      "Permanent tracking with real-time status updates",
-      "Reduced response time and improved communication",
-      "Complete audit trail for all neighborhood issues",
+      "Automated weekly data collection from 42+ buildings",
+      "Real-time pricing and availability updates",
+      "Eliminates manual web searches and inconsistent spreadsheets",
+      "Comprehensive market coverage across metro areas",
     ],
     gradient: "from-blue-500/10 to-blue-600/10",
     image: "photo-1670261197418-40e922b570d2",
   },
   {
-    id: "review-pay-applications",
-    icon: FileText,
-    title: "Review Contractor Applications",
+    id: "market-trend-analysis",
+    icon: TrendingUp,
+    title: "Market Trend Analysis",
     description:
-      "Automatically validate contractor pay applications for HOA projects—check required backup, reconcile quantities and costs, apply retainage, and flag variances before approval.",
+      "AI-powered analysis reveals seasonal patterns, location-based appreciation rates, and investment opportunities. Identified recurring market patterns and stadium area growth opportunities.",
     benefits: [
-      "Fewer payment errors & chargebacks",
-      "Compliance controls",
-      "Auto-flag non-billable hardware/tools",
+      "Seasonal trend identification and market patterns",
+      "Location-based appreciation tracking (Stadium area 2x growth)",
+      "Transit project impact analysis for major events",
+      "Data-driven investment recommendations",
     ],
     gradient: "from-green-500/10 to-green-600/10",
     image: "photo-1670261197418-40e922b570d2",
   },
   {
-    id: "property-management",
-    icon: MapPin,
-    title: "Property Management Tools",
+    id: "pricing-intelligence",
+    icon: Database,
+    title: "Pricing Intelligence Platform",
     description:
-      "Comprehensive tools for property managers and HOAs including parcel information, zoning data, owner records, and maintenance scheduling with integrated vendor management.",
+      "Transform inconsistent 'lease-comp' spreadsheets into actionable intelligence. Help developers avoid risky investments while identifying high-growth opportunities near transit projects.",
     benefits: [
-      "Centralized property and resident information",
-      "Integrated vendor management and scheduling",
-      "Compliance tracking and documentation",
-      "Automated maintenance reminders and workflows",
+      "Replace manual lease-comp spreadsheets",
+      "Guide important investment decisions",
+      "Risk assessment for development locations",
+      "Transit project impact forecasting",
     ],
     gradient: "from-purple-500/10 to-purple-600/10",
     image: "photo-1722082839841-45473f5a15cf",
   },
   {
-    id: "document-management",
-    icon: Pen,
-    title: "Document Management",
+    id: "document-processing",
+    icon: FileText,
+    title: "LLM Document Processing",
     description:
-      "Automatically process HOA documents, lease agreements, and governing documents into searchable summaries. Track important dates, obligations, and covenants with AI-powered analysis.",
+      "Latest feature uses Large Language Models to level prices from contractor bids, normalizing cost structures and identifying pricing anomalies across different vendors.",
     benefits: [
-      "Important date tracking and reminders",
-      "Searchable document repository",
-
+      "Automated contractor bid analysis",
+      "Price normalization across vendors",
+      "Anomaly detection in pricing structures",
+      "Streamlined vendor comparison process",
     ],
     gradient: "from-orange-500/10 to-orange-600/10",
     image: "photo-1521791055366-0d553872125f",
   },
   {
-    id: "vendor-bid-analysis",
+    id: "real-estate-analytics",
     icon: Calculator,
-    title: "Vendor Bid Analysis",
+    title: "Real Estate Analytics",
     description:
-      "Parse bids from contractors and vendors for HOA projects, normalize units and cost codes, and auto-build comparison tables that highlight scope gaps and pricing anomalies.",
+      "Comprehensive analytics suite that helped development companies make informed decisions, doubling down on stadium area investments while avoiding overvalued markets.",
     benefits: [
-      "Streamlined vendor selection process",
-      "Side-by-side bid comparisons",
-      "Automated scope and pricing analysis",
-      "Transparent contractor selection",
+      "Used by 3 real estate development companies",
+      "Growing adoption by development firms",
+      "Proven ROI for investment decisions",
+      "Custom analytics for development portfolios",
     ],
     gradient: "from-red-500/10 to-red-600/10",
     image: "photo-1542621334-a254cf47733d",
   },
 ];
 
-const processLabels = ["Report", "Process", "Manage", "Analyze", "Compare"];
+const processLabels = ["Scrape", "Analyze", "Intelligence", "Process", "Analytics"];
 
 const industryLabels = [
-  "Issue Reporting",
-  "Project Management",
-  "Property Management",
-  "Document Management",
-  "Vendor Management",
+  "Web Scraping",
+  "Trend Analysis",
+  "Pricing Intelligence",
+  "Document Processing",
+  "Real Estate Analytics",
 ];
 
 export const Features = () => {

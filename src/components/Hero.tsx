@@ -12,20 +12,20 @@ export const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-8 animate-fade-in">
           <Users className="w-4 h-4" />
-          Smart Neighborhood Management Platform
+          AI-Powered Real Estate Intelligence
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
-          Streamline Your
+          Transform Your
           <br />
           <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-            Community Management
+            Investment Decisions
           </span>
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-fade-in">
-          AI-powered neighborhood issue reporting that automatically routes complaints to the right party,
-          provides instant updates, and keeps your community running smoothly.
+          AI web scraping and document processing for real estate pricing intelligence. 
+          Used by 3 development companies to guide investment decisions and market analysis.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
@@ -40,7 +40,7 @@ export const Hero = () => {
             className="text-lg px-8 py-6 group"
             onClick={() => {
               const element = document.getElementById(
-                "neighborhood-issue-reporting"
+                "ai-web-scraping"
               );
               if (element) {
                 element.scrollIntoView({ behavior: "smooth" });

@@ -20,7 +20,7 @@ const Index = () => {
           <div className="text-center text-muted-foreground">
             {/* <p>&copy; 2025 Brix. All rights reserved.</p> */}
             <p className="mt-2">
-              Bringing artificial intelligence to community and property management
+              AI-powered real estate pricing intelligence for smarter investment decisions
             </p>
           </div>
         </div>
